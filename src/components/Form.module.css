@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  & > input {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid var(--color-gray-950);
+    background: var(--color-gray-800);
+    border-radius: 8px;
+  }
+
+  button[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 1rem;
+    background-color: var(--color-blue-500);
+    color: var(--color-white);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}

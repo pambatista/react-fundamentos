@@ -1,0 +1,6 @@
+.appContainer {
+  position: relative;
+  top: -2rem;
+  max-width: 732px;
+  margin: 0 auto;
+}
